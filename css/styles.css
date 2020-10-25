@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+  --accent-color: #2196F3;
+  --main-color: #FFFFFF;
+  --background-color: #E5E5E5;
+  --second-color: #757575;
+  --accent-font: 'Oleo Script', cursive;
+  --main-font: 'Roboto', sans-serif;
+  --logo-font: 'Raleway', sans-serif;
+  --footer-color: #2F303A;
+  --black-color: #212121;
+  --button-color: #F5F4FA;
+}
+
+/* Стили к странице Студия */
+body{
+    font-family: var(--main-font);
+    text-decoration: none;
+    background: var(--background-color);
+}
+.title-h1{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.father-service{
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    background: var(--accent-color);
+    text-align: center;
+}
+.service{
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: var(--main-color);
+}
+.father-service:hover{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.title-h3{
+    color: var(--black-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.text0{
+    color: var(--second-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+.h2{
+    font-weight: 700;
+    font-size: 36px; 
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black-color);
+}
+.text1{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--black-color);
+}
+.text2{
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--second-color);
+}
+.footer{
+    background: var(--footer-color);
+    width: 1600px;
+    height: 252px;
+}
+
+/* Стили к странице Портфолио */
+
+a{
+    text-decoration: none;
+}
+.logo1{
+    font-family: var(--logo-font);
+    color: var(--accent-color);
+    font-size: 26px;
+    line-height: 31px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+.logo2{
+    color: black;
+}
+.menu-item:hover{
+    color: var(--accent-color);
+}
+
+.menu-item{
+    font-family: var(--main-font);
+    color: var(--black-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.contact{
+    font-family: var(--main-font);
+    color: var(--second-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.button:hover{
+
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+
+}
+.button{
+    padding: 6px;
+    height: 38px;
+    background: var(--button-color);
+    border-radius: 4px;
+    text-align: center;
+}
+
+.li1{
+    width: 73px;
+}
+.li2{
+    width: 128px;
+}
+.li3{
+    width: 145px;
+}
+.li4{
+    width: 103px;
+}
+.li5{
+    width: 130px;
+} 
+.butt:hover{
+    color: var(--main-color);
+}
+.butt{
+    font-family: var(--main-font);
+    color: var(--black-color);
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+}
+.text{
+    color: var(--black-color);
+    width: 322px;
+    height: 36px;
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+.sub-text{
+    font-family: var(--main-font);
+    color: var(--second-color);
+    width: 322px;
+    height: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+.blank{
+    width: 370px;
+    height: 404px;
+    background: var(--main-color);
+    text-align: center;
+}
+.footer-item{
+    width: 231px;
+    height: 21px;
+    text-decoration: none;
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-position{
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    text-decoration: none;
+}
+
